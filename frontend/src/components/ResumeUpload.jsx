@@ -46,7 +46,7 @@ const ResumeUpload = () => {
       const extractedSkills = data.data.skills || [];
       setSkills(extractedSkills);
 
-      console.log(extractedSkills);
+      //console.log(extractedSkills);
     } catch (err) {
       setError(err.response?.data?.error || "Something went wrong");
     } finally {
